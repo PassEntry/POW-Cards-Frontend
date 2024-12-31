@@ -97,7 +97,7 @@ jobs:
           ECR_REPOSITORY: pow-frontend
           IMAGE_TAG: '${{ needs.release.outputs.tag }}'
         run: |
-          DOCKER_BUILDKIT=1 docker build --secret id=mapbox_api_key,src=<(echo -n "${{ secrets.MAPBOX_API_KEY }}") -t $ECR_REPOSITORY .
+          DOCKER_BUILDKIT=1 docker build -t $ECR_REPOSITORY .
           echo "built image"
           docker tag $ECR_REPOSITORY $ECR_REGISTORY/$ECR_REPOSITORY:$IMAGE_TAG
           echo "tagged image"
