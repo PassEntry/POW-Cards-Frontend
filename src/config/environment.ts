@@ -7,13 +7,13 @@ const ENV = (() => {
 
 const CONFIG = {
   development: {
-    apiUrl: 'http://localhost:3001'
+    apiUrl: process.env.REACT_APP_API_URL || 'http://localhost:3001'
   },
   staging: {
-    apiUrl: 'https://staging-api.pow.cards'
+    apiUrl: process.env.REACT_APP_API_URL || 'https://api-staging.pow.cards'
   },
   production: {
-    apiUrl: 'https://api.pow.cards'
+    apiUrl: process.env.REACT_APP_API_URL || 'https://api.pow.cards'
   }
 };
 
