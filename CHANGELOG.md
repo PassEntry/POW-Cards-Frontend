@@ -1,4 +1,11 @@
-## 0.2.0 (2024-12-31)
+## [0.3.0](https://github.com/PassEntry/POW-Cards-Frontend/compare/v0.2.0...v0.3.0) (2025-01-02)
+
+
+### Features
+
+* add deploy step to action [[PS-1310](https://passentry.atlassian.net/browse/PS-1310)] ([88f1448](https://github.com/PassEntry/POW-Cards-Frontend/commit/88f144888e67f358ab9bb39e213f4cfd485140c6))
+
+## [0.2.0](https://github.com/PassEntry/POW-Cards-Frontend/compare/bde52051d7d289a6f51828c6bf4c476afa43404e...v0.2.0) (2024-12-31)
 
 
 ### Features
