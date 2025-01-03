@@ -26,7 +26,7 @@ export const Header: React.FC<HeaderProps> = ({ nav = true }) => {
                 {/* Documentation link */}
                 <li>
                   <a
-                    href="https://powcards.mintlify.app/introduction"
+                    href="https://docs.pow.cards/introduction"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-sm text-slate-600 hover:text-blue-500 font-medium transition duration-150 ease-in-out"
