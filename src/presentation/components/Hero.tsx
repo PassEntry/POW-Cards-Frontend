@@ -142,7 +142,18 @@ export const Hero: React.FC = () => {
                     >
                       Claim your POW
                       <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                        -&gt;
+                        →
+                      </span>
+                    </Link>
+                  </div>
+                  <div>
+                    <Link
+                      to="/contact"
+                      className="btn px-6 text-slate-300 bg-slate-700/30 hover:bg-slate-800/40 hover:text-slate-200 group shadow-sm whitespace-nowrap flex-shrink-0"
+                    >
+                      Partner with us
+                      <span className="tracking-normal text-slate-400 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
+                        →
                       </span>
                     </Link>
                   </div>
