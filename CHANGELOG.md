@@ -1,3 +1,10 @@
+## [0.4.2](https://github.com/PassEntry/POW-Cards-Frontend/compare/v0.4.1...v0.4.2) (2025-01-03)
+
+
+### Bug Fixes
+
+* Avoid deeplinking in TokenPocket iOS claim ([eeecc95](https://github.com/PassEntry/POW-Cards-Frontend/commit/eeecc95893f024ae69b6ad8d6a92010ee3400bb5))
+
 ## [0.4.1](https://github.com/PassEntry/POW-Cards-Frontend/compare/v0.4.0...v0.4.1) (2025-01-03)
 
 
