@@ -1,3 +1,10 @@
+## [0.4.1](https://github.com/PassEntry/POW-Cards-Frontend/compare/v0.4.0...v0.4.1) (2025-01-03)
+
+
+### Bug Fixes
+
+* Update mintlify to new domain ([3977c87](https://github.com/PassEntry/POW-Cards-Frontend/commit/3977c87ec81e6f1c0c1b52096dba0a525545cfae))
+
 ## [0.4.0](https://github.com/PassEntry/POW-Cards-Frontend/compare/v0.3.0...v0.4.0) (2025-01-02)
 
 
