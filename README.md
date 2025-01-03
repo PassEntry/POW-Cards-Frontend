@@ -44,3 +44,19 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Environment Variables
+
+The application uses environment variables for configuration. To set up your environment:
+
+1. Copy the appropriate example file for your environment:
+   - For local development: `cp .env.local.example .env.local`
+   - For staging: `cp .env.staging.example .env.staging`
+   - For production: `cp .env.production.example .env.production`
+
+2. Modify the values in the created .env file if needed
+
+Available environment variables:
+- `REACT_APP_API_URL`: The base URL for the API
+
+Note: The .env files are not committed to version control for security reasons.

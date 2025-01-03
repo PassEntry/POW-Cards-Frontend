@@ -1,3 +1,10 @@
+## [0.4.0](https://github.com/PassEntry/POW-Cards-Frontend/compare/v0.3.0...v0.4.0) (2025-01-02)
+
+
+### Features
+
+* Add environment variables depending on environment ([e6ef892](https://github.com/PassEntry/POW-Cards-Frontend/commit/e6ef892f3f4c0d9f659edef9e641129b8cccb159))
+
 ## [0.3.0](https://github.com/PassEntry/POW-Cards-Frontend/compare/v0.2.0...v0.3.0) (2025-01-02)
 
 
