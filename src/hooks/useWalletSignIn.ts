@@ -77,6 +77,7 @@ Issued At: ${data.issuedAt}`;
       return verifyData;
 
     } catch (err) {
+      console.error('Wallet sign-in error:', err);
       setError('Error with your request. Please try again or contact support.');
       throw err;
     } finally {
