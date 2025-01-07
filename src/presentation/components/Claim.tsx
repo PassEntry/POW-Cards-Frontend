@@ -19,8 +19,8 @@ export const Claim: React.FC = () => {
       if (result.downloadUrl) {
         setDownloadUrl(result.downloadUrl);
         
-        // Only open in new tab if browser is compatible
-        if (isCompatibleBrowser()) {
+        // Only open in new tab if browser is compatible and pass was just created
+        if (isCompatibleBrowser() && result.status === 'created') {
           window.open(result.downloadUrl, '_blank');
         }
       }
