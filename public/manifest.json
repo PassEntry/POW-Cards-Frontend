@@ -1,6 +1,7 @@
 {
-  "name": "POW Cards - Your Web3 wallet pass",
+  "name": "POW Cards - Digital Wallet Cards on Solana",
   "short_name": "POW Cards",
+  "description": "Transform your Solana wallet into a digital pass. Create NFT-gated experiences, loyalty programs, and event tickets with seamless mobile wallet integration.",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -18,7 +19,11 @@
       "type": "image/png"
     }
   ],
+  "start_url": ".",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "display": "standalone"
+  "display": "standalone",
+  "orientation": "portrait",
+  "categories": ["finance", "blockchain", "utilities", "web3"],
+  "screenshots": []
 }
