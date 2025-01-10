@@ -162,19 +162,23 @@ export const Claim: React.FC = () => {
                   </h1>
                   {/* Buttons */}
                   <div className="-m-1.5 max-w-xl mx-auto mb-8 flex items-center justify-center gap-4">
-                    <WalletMultiButton className="btn text-white bg-blue-500 hover:bg-blue-600 group shadow-sm m-1.5" />
-                    
-                    {connected && !isSuccess && (
-                      <button 
-                        className="btn text-white bg-blue-500 hover:bg-blue-600 group shadow-sm m-1.5 flex items-center"
-                        onClick={handleDownloadPass}
-                        disabled={isLoading}
-                      >
-                        <span>{isLoading ? 'Signing...' : 'Download pass'}</span>
-                        <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                          →
-                        </span>
-                      </button>
+                    {!isSuccess && (
+                      <>
+                        <WalletMultiButton className="btn text-white bg-blue-500 hover:bg-blue-600 group shadow-sm m-1.5" />
+                        
+                        {connected && (
+                          <button 
+                            className="btn text-white bg-blue-500 hover:bg-blue-600 group shadow-sm m-1.5 flex items-center"
+                            onClick={handleDownloadPass}
+                            disabled={isLoading}
+                          >
+                            <span>{isLoading ? 'Signing...' : 'Download pass'}</span>
+                            <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
+                              →
+                            </span>
+                          </button>
+                        )}
+                      </>
                     )}
                   </div>
                   {error && (
