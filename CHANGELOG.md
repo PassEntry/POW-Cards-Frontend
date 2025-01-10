@@ -1,3 +1,10 @@
+## [0.6.0](https://github.com/PassEntry/POW-Cards-Frontend/compare/v0.5.0...v0.6.0) (2025-01-10)
+
+
+### Features
+
+* Hide wallet adapter after claim. ([ed5edf6](https://github.com/PassEntry/POW-Cards-Frontend/commit/ed5edf6b4d4e94ff4b057e6097cad855c1746a32))
+
 ## [0.5.0](https://github.com/PassEntry/POW-Cards-Frontend/compare/v0.4.2...v0.5.0) (2025-01-08)
 
 
@@ -25,11 +32,4 @@
 ### Features
 
 * Add environment variables depending on environment ([e6ef892](https://github.com/PassEntry/POW-Cards-Frontend/commit/e6ef892f3f4c0d9f659edef9e641129b8cccb159))
-
-## [0.3.0](https://github.com/PassEntry/POW-Cards-Frontend/compare/v0.2.0...v0.3.0) (2025-01-02)
-
-
-### Features
-
-* add deploy step to action [[PS-1310](https://passentry.atlassian.net/browse/PS-1310)] ([88f1448](https://github.com/PassEntry/POW-Cards-Frontend/commit/88f144888e67f358ab9bb39e213f4cfd485140c6))
 
