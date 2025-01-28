@@ -9,7 +9,7 @@ import { isCompatibleBrowser } from '../../utils/browser';
 import { Features } from './Features';
 
 export const Claim: React.FC = () => {
-  const { connected } = useWallet();
+  const { connected, disconnect, select } = useWallet();
   const { signIn, isLoading, error, isSuccess } = useWalletSignIn();
   const [downloadUrl, setDownloadUrl] = useState<string | null>(null);
 
@@ -27,6 +27,11 @@ export const Claim: React.FC = () => {
     } catch (err) {
       console.error('Download pass failed');
     }
+  };
+
+  const handleDisconnect = () => {
+    disconnect();
+    select(null);
   };
 
   return (
@@ -164,7 +169,30 @@ export const Claim: React.FC = () => {
                   <div className="-m-1.5 max-w-xl mx-auto mb-8 flex items-center justify-center gap-4">
                     {!isSuccess && (
                       <>
-                        <WalletMultiButton className="btn text-white bg-blue-500 hover:bg-blue-600 group shadow-sm m-1.5" />
+                        <div className="relative">
+                          <WalletMultiButton className="btn text-white bg-blue-500 hover:bg-blue-600 group shadow-sm m-1.5" />
+                          {connected && (
+                            <button
+                              onClick={handleDisconnect}
+                              className="absolute -right-2 -top-2 p-1 bg-slate-700 hover:bg-slate-600 rounded-full text-slate-300 hover:text-white transition-colors"
+                              title="Disconnect wallet"
+                            >
+                              <svg 
+                                className="w-3 h-3" 
+                                fill="none" 
+                                stroke="currentColor" 
+                                viewBox="0 0 24 24"
+                              >
+                                <path 
+                                  strokeLinecap="round" 
+                                  strokeLinejoin="round" 
+                                  strokeWidth={2} 
+                                  d="M6 18L18 6M6 6l12 12" 
+                                />
+                              </svg>
+                            </button>
+                          )}
+                        </div>
                         
                         {connected && (
                           <button 
@@ -193,7 +221,7 @@ export const Claim: React.FC = () => {
                           displayText="Click to copy download URL"
                         />
                       </div>
-                      <p className="text-sm text-slate-400">The link has also been opened in a new tab</p>
+                      <p className="text-sm text-slate-400">Paste this link in your browser to claim your pass</p>
                     </div>
                   )}
                 </div>
