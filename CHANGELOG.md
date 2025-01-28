@@ -1,3 +1,10 @@
+## [0.7.0](https://github.com/PassEntry/POW-Cards-Frontend/compare/v0.6.0...v0.7.0) (2025-01-28)
+
+
+### Features
+
+* Improve onboarding flow ([e5ed026](https://github.com/PassEntry/POW-Cards-Frontend/commit/e5ed026c78299e8f67e6f4213e20bb63e63851db))
+
 ## [0.6.0](https://github.com/PassEntry/POW-Cards-Frontend/compare/v0.5.0...v0.6.0) (2025-01-10)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * Update mintlify to new domain ([3977c87](https://github.com/PassEntry/POW-Cards-Frontend/commit/3977c87ec81e6f1c0c1b52096dba0a525545cfae))
-
-## [0.4.0](https://github.com/PassEntry/POW-Cards-Frontend/compare/v0.3.0...v0.4.0) (2025-01-02)
-
-
-### Features
-
-* Add environment variables depending on environment ([e6ef892](https://github.com/PassEntry/POW-Cards-Frontend/commit/e6ef892f3f4c0d9f659edef9e641129b8cccb159))
 
