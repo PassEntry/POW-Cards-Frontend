@@ -1,3 +1,10 @@
+## [0.7.1](https://github.com/PassEntry/POW-Cards-Frontend/compare/v0.7.0...v0.7.1) (2025-07-04)
+
+
+### Bug Fixes
+
+* oicd credentials in github actions [[PS-2002](https://passentry.atlassian.net/browse/PS-2002)] ([f8fdc6c](https://github.com/PassEntry/POW-Cards-Frontend/commit/f8fdc6c58e04c3e27f846518a360f7d731528079))
+
 ## [0.7.0](https://github.com/PassEntry/POW-Cards-Frontend/compare/v0.6.0...v0.7.0) (2025-01-28)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * Avoid deeplinking in TokenPocket iOS claim ([eeecc95](https://github.com/PassEntry/POW-Cards-Frontend/commit/eeecc95893f024ae69b6ad8d6a92010ee3400bb5))
-
-## [0.4.1](https://github.com/PassEntry/POW-Cards-Frontend/compare/v0.4.0...v0.4.1) (2025-01-03)
-
-
-### Bug Fixes
-
-* Update mintlify to new domain ([3977c87](https://github.com/PassEntry/POW-Cards-Frontend/commit/3977c87ec81e6f1c0c1b52096dba0a525545cfae))
 

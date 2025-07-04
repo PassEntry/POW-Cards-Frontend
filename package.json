@@ -1,6 +1,6 @@
 {
   "name": "pow-cards-frontend",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "private": true,
   "dependencies": {
     "@fontsource/inter": "^5.1.0",
