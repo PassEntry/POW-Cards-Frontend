@@ -1,3 +1,10 @@
+## [0.7.2](https://github.com/PassEntry/POW-Cards-Frontend/compare/v0.7.1...v0.7.2) (2025-07-04)
+
+
+### Bug Fixes
+
+* set correct role for deploy [[PS-2002](https://passentry.atlassian.net/browse/PS-2002)] ([d4106bb](https://github.com/PassEntry/POW-Cards-Frontend/commit/d4106bb94635283fe21428a10e7e763fd606c87d))
+
 ## [0.7.1](https://github.com/PassEntry/POW-Cards-Frontend/compare/v0.7.0...v0.7.1) (2025-07-04)
 
 
@@ -25,11 +32,4 @@
 ### Features
 
 * Update meta tags and manifest for improved SEO and branding ([d225f2c](https://github.com/PassEntry/POW-Cards-Frontend/commit/d225f2c9757608fed67c1acf72162b2b1525858d))
-
-## [0.4.2](https://github.com/PassEntry/POW-Cards-Frontend/compare/v0.4.1...v0.4.2) (2025-01-03)
-
-
-### Bug Fixes
-
-* Avoid deeplinking in TokenPocket iOS claim ([eeecc95](https://github.com/PassEntry/POW-Cards-Frontend/commit/eeecc95893f024ae69b6ad8d6a92010ee3400bb5))
 
